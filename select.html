@@ -7,12 +7,23 @@
 </head>
 <body>
     <form action="">
-        <label for="hobby">hobby :</label>
-        <select name="hobby" id="hobby" multiple size="2">
-            <option value="coding">Coding</option>
-            <option value="gaming">Gaming</option>
-            <option value="reading">Reading</option>
-            <option value="swimming">Swimming</option>
+        <label for="hobi">Hobi :</label>
+        <select name="hobi" id="hobi">
+            <optgroup label="coding">
+                <option value="coding">Coding</option>
+                <option value="debugging">Debugging</option>
+                <option value="designing">Designing</option>
+            </optgroup>
+            <optgroup label="gaming">
+                <option value="playing">Playing</option>
+                <option value="watching">Watching</option>
+                <option value="streaming">Streaming</option>
+            </optgroup>
+            <optgroup label="sport">
+                <option value="football">Football</option>
+                <option value="basketball">Basketball</option>
+                <option value="tennis">Tennis</option>
+            </optgroup>
         </select>
         <button type="submit">Simpan</button>
     </form>
